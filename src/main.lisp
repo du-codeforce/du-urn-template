@@ -1,7 +1,8 @@
-(define script {})
-
-(define-native screen :bind-to "screen")
+;; define external variables
 (define-native unit :bind-to "unit")
+(define-native screen :bind-to "screen")
+
+(define script {})
 
 (.<! script :onStart
 	(lambda []

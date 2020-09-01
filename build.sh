@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir -p temp
 
-urn.lua -O3 --output temp/build.lua src/main.urn
+urn.lua -O3 --output temp/build.lua src/main.lisp
 amalg.lua -s entry.lua temp/build -o temp/package.lua
 luasrcdiet --quiet --maximum --noopt-comments temp/package.lua -o temp/package_min.lua
 

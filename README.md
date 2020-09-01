@@ -45,7 +45,7 @@ The entry.lua file is what imports and exposes your urn code
 The SLOTS file contains the slot definitions. One per file.
 
 ## src
-This is where your urn code goes. Make sure there is a file named `main.urn` for the scripts to work
+This is where your urn code goes. Make sure there is a file named `main.lisp` for the scripts to work
 
 ## build.sh
 The build.sh file builds and packages your urn code into a DU consumable JSON file.
@@ -64,6 +64,6 @@ The is the following
 5) In Dual Universe, right-click on the part you want the script running on and choose "Advanced -> Paste Lua Script"
 
 # Example
-There is example code in [src/main.urn](src/main.urn).
+There is example code in [src/main.lisp](src/main.lisp).
 
 The example was created from the original example code which can be seen in [tools/README.md](tools/README.md).
